@@ -1,0 +1,70 @@
+// ChromeMaterial genrated by blender2ogre 0.6.0
+
+material ChromeMaterial 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass ChromeMaterial
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+
+
+material TireMaterial 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass TireMaterial
+        {
+            ambient 0.0024916816037148237 0.002367232693359256 0.0310631413012743 1.0
+            diffuse 0.0019933453126750184 0.0018937861829070174 0.02485051341132094 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
